@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y curl
 
 LABEL "com.github.actions.name"="Auto Merge Action"
 LABEL "com.github.actions.description"="Automatically merge one branch into another"
-LABEL "com.github.actions.icon"="arrow"
+LABEL "com.github.actions.icon"="repeat"
 LABEL "com.github.actions.color"="orange"
 
 LABEL "repository"="http://github.com/andyhansen/auto-merge-action"
