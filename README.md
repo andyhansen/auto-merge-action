@@ -18,7 +18,7 @@ Changes pushed to `FROM_BRANCH` will be automatically merged into `TO_BRANCH`.
 An example `main.workflow` which updates the `uat` branch whenever changes are pushed `master`.
 
 <p align="center">
-  <img src="docs/merge-workflow.png" width="200">
+  <img src="docs/merge-workflow.png" width="300">
 </p>
 
 ```workflow
