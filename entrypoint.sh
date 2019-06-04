@@ -20,6 +20,5 @@ fi
 curl -X POST \
   "https://api.github.com/repos/${GITHUB_REPOSITORY}/merges" \
   -H "Authorization: Bearer ${GITHUB_TOKEN}" \
-  -H 'content-type: multipart/form-data' \
-  -F "base=${TO_BRANCH}" \
-  -F "head=${FROM_BRANCH}"
+  -H "Content-Type: application/json" \
+  -d "{ \"base\": \"${TO_BRANCH}\", \"head\": \"${FROM_BRANCH}\" }"
