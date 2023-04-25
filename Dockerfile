@@ -1,4 +1,4 @@
-FROM debian:9.5-slim
+FROM debian:11.6-slim
 
 RUN apt-get update && apt-get install -y curl
 
